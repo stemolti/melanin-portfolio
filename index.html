@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link al foglio di stile di Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!-- GSAP v3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Melanin Beauty</title>
+</head>
+
+<body>
+    <!-- Pre-Loader -->
+    <div id="loading">
+        <div>
+            ...loading
+        </div>
+    </div>
+    <!-- Hamburger Button -->
+    <button class="hamburger hamburger--elastic" type="button" id="menu-button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <!-- Menu -->
+    <div id="menu">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </div>
+    <!-- Homepage -->
+    <div class="home d-flex align-items-center justify-content-center vh-100">
+        <div class="mx-5 px-5 text-center">
+            <h1 class="fw-bold display-3">Melanin Beauty</h1>
+            <div class="mx-5 px-5">
+                <p class="lead font-weight-normal text-light">
+                    I choose myself,I wear myself,Proud of it. I was born with these
+                    shades,which glow like my heart,my eyes and my smile because I choose
+                    my beauty and I will be strong for you and me and I will stand for
+                    ME(lanin)
+                </p>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Fer Section -->
+    <div class="none-display section section-1 text-center">
+        <div class="container-fluid">
+            <div class="row row-fer">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 square">
+                        <div class="fer-profile">
+                            <h1 class=".fer-title fw-bold display-3">.fer</h1>
+                            <div class="fer">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 square">
+                        <div class="bio">
+                            My name is Fernanda, I am 23 years old and I am from Colombia.
+                            I am studying Graphic design at LABA academy in Brescia, Italy.
+                            The reason why I have chosen this course of study is because
+                            I wanted to combine it with my passion for fashion photography
+                            and photography in general, which I have always had since I
+                            was a kid. All my childhood life has been documented by my father
+                            who always had a little camera in his pocket. Photography to me
+                            means freedom and imagination.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Work Section-->
+    <div class="none-display section section-2 px-5 text-center">
+        <div class="container-fluid container-2">
+            <div class="row">
+                <div style="background-image: url(images/1.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+                <div style="background-image: url(images/2.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+                <div style="background-image: url(images/3.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+            </div>
+            <div class="row">
+                <div style="background-image: url(images/4.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+                <div style="background-image: url(images/5.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+                <div style="background-image: url(images/6.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+            </div>
+            <div class="row">
+                <div style="background-image: url(images/7.jpg); background-size: 150%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+                <div style="background-image: url(images/8.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+                <div style="background-image: url(images/9.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
+                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu, Loader and  Reveal Fer Profile with JS -->
+    <script src="script.js"></script>
+    <!-- Link ai files JavaScript di Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
