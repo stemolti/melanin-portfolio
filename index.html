@@ -18,6 +18,7 @@
         rel="stylesheet" />
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="hamburger.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>Melanin Beauty</title>
@@ -39,7 +40,7 @@
     <!-- Menu -->
     <div id="menu">
         <ul>
-            <li><a href="#">home</a></li>
+            <li><a class="primo" href="#">home</a></li>
             <li><a href="#">about</a></li>
             <li><a href="#">contact</a></li>
         </ul>
@@ -75,7 +76,7 @@
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 square">
-                        <div class="bio">
+                        <div class="bio corsivo">
                             My name is Fernanda, I am 23 years old and I am from Colombia.
                             I am studying Graphic design at LABA academy in Brescia, Italy.
                             The reason why I have chosen this course of study is because
@@ -93,40 +94,88 @@
     <!-- Work Section-->
     <div class="none-display section section-2 px-5 text-center">
         <div class="container-fluid container-2">
-            <div class="row">
-                <div style="background-image: url(images/1.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-                <div style="background-image: url(images/2.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-                <div style="background-image: url(images/3.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-            </div>
-            <div class="row">
-                <div style="background-image: url(images/4.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-                <div style="background-image: url(images/5.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-                <div style="background-image: url(images/6.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-            </div>
-            <div class="row">
-                <div style="background-image: url(images/7.jpg); background-size: 150%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-                <div style="background-image: url(images/8.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
-                <div style="background-image: url(images/9.jpg); background-size: 100%; background-position: 0 50%; background-repeat: no-repeat"
-                    class="col-lg-4 col-md-12 col-sm-12 square border border-light">
-                </div>
+            <div class="row row-mans">
+                    <div class="column col-mans">
+                        <img src="images/1.jpg" alt="">
+                        <img src="images/2.jpg" alt="">
+                        <img src="images/3.jpg" alt="">
+                    </div>
+                    <div class="column col-mans">
+                        <img src="images/4.jpg" alt="">
+                        <img src="images/5.jpg" alt="">
+                        <img src="images/6.jpg" alt="">
+                    </div>
+                    <div class="column col-mans">
+                        <img src="images/7.jpg" alt="">
+                        <img src="images/8.jpg" alt="">
+                        <img src="images/9.jpg" alt="">
+                    </div>
+                    
             </div>
         </div>
+    </div>
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Links</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chi siamo</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lavori</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contatti</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Servizi</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fotografia</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Grafica</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Illustrazioni</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pittura</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Funzionalità</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Communità</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ambassador</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Acquista</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sconti e Regali</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Iscriviti alla nostra newsletter</h5>
+                        <p>Ricevi ogni mese cose nuove e interessanti da noi!</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                            <button class="btn btn-primary" type="button">Iscriviti</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2023 Melanin Beauty. Tutti i diritti riservati.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook" />
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
     <!-- Menu, Loader and  Reveal Fer Profile with JS -->
     <script src="script.js"></script>
