@@ -56,11 +56,28 @@ h1 {
 
 /* IMAGES */
 
-.square {
-    height: 33vh;
-    border: #fff;
-    border-width: 1px;
-}
+.row-mans {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+/* Create four equal columns that sits next to each other */
+.col-mans {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .col-mans img {
+    margin-top: 8px;
+    vertical-align:middle;
+    width: 100%;
+  }
+
+  .col-mans img:hover{
+    filter: grayscale(1) brightness(0.5);
+  }
 
 .fer {
     height: 400px;
@@ -83,19 +100,21 @@ h1 {
 }
 
 .section-1 {
-    height: 80vh;
+    height: auto;
     background-color: #fff;
+    padding-bottom: 50px;
+
 }
 
 .section-2 {
-    height: 100vh;
+    height: auto;
     background-color: #feb5b5;
+    padding-bottom: 50px;
 }
 
 .container-2{
     padding-top: 50px;
 }
-
 
 .row-fer {
     margin-top: 100px;
@@ -228,10 +247,20 @@ button#menu-button {
     .bio {
         margin-left: 15%;
         margin-right: 10%;
-        margin-top: calc(180px + 5%);
+        margin-top: 50px;
     }
     .section-1 {
-        height: 120vh;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .section-2 {
+        padding-bottom: 50px;
+    }
+
+    .col-mans {
+        flex: 50%;
+        max-width: 50%;
     }
 }
 
@@ -247,6 +276,15 @@ button#menu-button {
     .bio {
         margin-left: 20%;
         margin-right: 10%;
+    }
+
+    .section-1 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .section-2 {
+        padding-bottom: 50px;
     }
 }
 
@@ -265,4 +303,19 @@ button#menu-button {
         margin-left: 20%;
         margin-right: 10%;
     }
+
+    .section-1 {
+        height: auto;
+        padding-bottom: 50px;
+
+    }
+
+    .section-2 {
+        padding-bottom: 50px;
+    }
+
+    .col-mans {
+        flex: 33%;
+        max-width: 33%;
+      }
 }
