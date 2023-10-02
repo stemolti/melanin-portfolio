@@ -27,12 +27,10 @@
 <body>
     <!-- Pre-Loader -->
     <div id="loading">
-        <div>
-            ...loading
-        </div>
+        ...loading
     </div>
     <!-- Hamburger Button -->
-    <button class="hamburger hamburger--elastic" type="button" id="menu-button">
+    <button class="none-display hamburger hamburger--elastic" type="button" id="menu-button">
         <span class="hamburger-box">
             <span class="hamburger-inner"></span>
         </span>
@@ -40,43 +38,57 @@
     <!-- Menu -->
     <div id="menu">
         <ul>
-            <li><a class="primo" href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#works">works</a></li>
         </ul>
     </div>
     <!-- Homepage -->
-    <div class="home d-flex align-items-center justify-content-center vh-100">
-        <div class="mx-5 px-5 text-center">
-            <h1 class="fw-bold display-3">Melanin Beauty</h1>
-            <div class="mx-5 px-5">
-                <p class="lead font-weight-normal text-light">
+    <div class="home d-flex align-items-center justify-content-center vh-100" id="home">
+        <div class="melanin-home-1 mx-5 px-5 text-center">
+            <h1 class="melanin-title fw-bold display-3">Melanin Beauty</h1>
+            <div class="melanin-home-2 mx-5 px-5">
+                <p class="melanin-text fw-normal text-light">
                     I choose myself,I wear myself,Proud of it. I was born with these
                     shades,which glow like my heart,my eyes and my smile because I choose
                     my beauty and I will be strong for you and me and I will stand for
                     ME(lanin)
                 </p>
-                <i class="bi bi-instagram"></i>
+                <!--URL delle icone social-->
+                <a href="https://www.instagram.com/melaninbeauty_withfer/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100071893876082" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/fernanda-hernandez-4108ba209/?originalSubdomain=it" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/calypso481300" target="_blank">
+                        <i class="bi bi-twitter"></i>
+                </a>
+                <!--
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-linkedin"></i>
                 <i class="bi bi-twitter"></i>
+                -->
             </div>
         </div>
     </div>
     <!-- Fer Section -->
-    <div class="none-display section section-1 text-center">
+    <div class="none-display section-1 text-center" id="about">
         <div class="container-fluid">
             <div class="row row-fer">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 square">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <div class="fer-profile">
                             <h1 class=".fer-title fw-bold display-3">.fer</h1>
                             <div class="fer">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 square">
-                        <div class="bio corsivo">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                        <div class="bio">
                             My name is Fernanda, I am 23 years old and I am from Colombia.
                             I am studying Graphic design at LABA academy in Brescia, Italy.
                             The reason why I have chosen this course of study is because
@@ -92,20 +104,20 @@
         </div>
     </div>
     <!-- Work Section-->
-    <div class="none-display section section-2 px-5 text-center">
+    <div class="none-display section-2 px-5 text-center" id="works">
         <div class="container-fluid container-2">
-            <div class="row row-mans">
-                    <div class="column col-mans">
+            <div class="row-mans">
+                    <div class="col-mans">
                         <img src="images/1.jpg" alt="">
                         <img src="images/2.jpg" alt="">
                         <img src="images/3.jpg" alt="">
                     </div>
-                    <div class="column col-mans">
+                    <div class="col-mans">
                         <img src="images/4.jpg" alt="">
                         <img src="images/5.jpg" alt="">
                         <img src="images/6.jpg" alt="">
                     </div>
-                    <div class="column col-mans">
+                    <div class="col-mans">
                         <img src="images/7.jpg" alt="">
                         <img src="images/8.jpg" alt="">
                         <img src="images/9.jpg" alt="">
@@ -114,7 +126,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container none-display footer">
         <footer class="py-5">
             <div class="row">
                 <div class="col-6 col-md-2 mb-3">
