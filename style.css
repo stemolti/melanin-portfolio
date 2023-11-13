@@ -103,10 +103,8 @@ h1 {
 }
 
 .section-1 {
-    height: auto;
+    height: 100vh;
     background-color: #fff;
-    padding-bottom: 50px;
-
 }
 
 .section-2 {
